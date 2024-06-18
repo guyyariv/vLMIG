@@ -81,7 +81,7 @@ For commonsense evaluation:
 ```angular2html
 python3 eval_scripts/commonsenseQA.py --model_name meta-llama/Meta-Llama-3-8B --pretrained_model output/llama3/ft_wiki_laion_220_2 --generate_images True --k 10 --testset piqa
 ```
-Note: This command example runs the testset PIQA, but this script can also be used to evaluate other datasets, such as SIQA, ARC, etc., by choosing --testset {testset name}.
+Note: This command example runs the testset PIQA, but this script can also be used to evaluate other datasets, such as SIQA, ARC, etc., by choosing ``` --testset {testset name} ```.
 Access script parameters with:
 ```angular2html
 python3 eval_scripts/commonsenseQA.py --help
