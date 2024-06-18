@@ -103,7 +103,7 @@ python3 eval_scripts/squad.py --help
 ```
 
 # Acknowledgments
-Our code it partially built upon [transformers training example script](https://github.com/huggingface/transformers/tree/main/examples/pytorch/language-modeling) and [ImagenetVC](https://github.com/hemingkx/ImageNetVC/tree/main)
+Our code it partially built upon [Transformers training example script](https://github.com/huggingface/transformers/tree/main/examples/pytorch/language-modeling) and [ImagenetVC](https://github.com/hemingkx/ImageNetVC/tree/main)
 
 # Cite
 If you use our work in your research, please cite the following paper:
