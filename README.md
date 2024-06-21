@@ -1,5 +1,5 @@
 # Improving Visual Commonsense in Language Models via Multiple Image Generation
-This repo contains the official PyTorch implementation of  [*Improving Visual Commonsense in Language Models via Multiple Image Generation*](https://pages.cs.huji.ac.il/adiyoss-lab/AudioToken/)
+This repo contains the official PyTorch implementation of  [*Improving Visual Commonsense in Language Models via Multiple Image Generation*](https://arxiv.org/abs/2406.13621)
 
 # Abstract
 Commonsense reasoning is fundamentally based on multimodal knowledge. However, existing large language models (LLMs) are primarily trained using textual data only, limiting their ability to incorporate essential visual information. In contrast, Visual Language Models, which excel at visually-oriented tasks, often fail at non-visual tasks such as basic commonsense reasoning. 
