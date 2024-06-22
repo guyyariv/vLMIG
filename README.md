@@ -6,6 +6,8 @@ Commonsense reasoning is fundamentally based on multimodal knowledge. However, e
 This divergence highlights a critical challenge - the integration of robust visual understanding with foundational text-based language reasoning. To this end, we introduce a method aimed at enhancing LLMs' visual commonsense. Specifically, our method generates multiple images based on the input text prompt and integrates these into the model's decision-making process by mixing their prediction probabilities. To facilitate multimodal grounded language modeling, we employ a late-fusion layer that combines the projected visual features with the output of a pre-trained LLM conditioned on text only. This late-fusion layer enables predictions based on comprehensive image-text knowledge as well as text only when this is required. We evaluate our approach using several visual commonsense reasoning tasks together with traditional NLP tasks, including common sense reasoning and reading comprehension. Our experimental results demonstrate significant superiority over existing baselines. When applied to recent state-of-the-art LLMs (e.g., Llama3), we observe improvements not only in visual common sense but also in traditional NLP benchmarks.
 
 <a href="https://arxiv.org/abs/2406.13621"><img src="https://img.shields.io/badge/arXiv-2406.13621-b31b1b.svg" height=22.5></a>
+<a href="https://pages.cs.huji.ac.il/adiyoss-lab/vLMIG/"><img src="https://img.shields.io/static/v1?label=Project&message=Website&color=red" height=22.5></a> 
+<a href="https://colab.research.google.com/drive/1-idBJHvI9cPAQ7GQq5in-4Sa_wiHzQkT?usp=sharing"><img src="https://img.shields.io/badge/Colab-F9AB00?style=for-the-badge&logo=googlecolab&color=525252" height=22.5></a>
 
 # Installation
 ```
